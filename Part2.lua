@@ -277,7 +277,6 @@ local function buildMenu()
     end)
 end
 
--- Key screen
 local function keyScreen()
     local sg = Instance.new("ScreenGui")
     sg.Name="KeyUI"; sg.ResetOnSpawn=false; sg.IgnoreGuiInset=true
